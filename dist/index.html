@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Astro Crash Course</title>
+  <link rel="stylesheet" href="/assets/_slug_-about-blog-index.ec161964.css" />
+<link rel="stylesheet" href="/assets/blog-index.ef7eb329.css" />
+<link rel="stylesheet" href="/assets/index.86630c70.css" /></head>
+  <body>
+    <header class="header astro-FLUUD6WU">
+  <div class="container astro-FLUUD6WU">
+    <div class="logo astro-FLUUD6WU">
+      <a href="/" class="astro-FLUUD6WU">
+        <img src="/assets/logo.6498442f.svg" alt="" class="astro-FLUUD6WU">
+      </a>
+    </div>
+    <nav class="astro-FLUUD6WU">
+      <ul class="astro-FLUUD6WU">
+        <li class="astro-FLUUD6WU"><a href="/" class="astro-FLUUD6WU">Home</a></li>
+        <li class="astro-FLUUD6WU"><a href="/about" class="astro-FLUUD6WU">About</a></li>
+        <li class="astro-FLUUD6WU"><a href="/blog" class="astro-FLUUD6WU">Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <section class="showcase astro-UGR6SEMF">
+  <div class="showcase-text astro-UGR6SEMF">
+    <h1 class="astro-UGR6SEMF">Welcome To The Astro Crash Course!</h1>
+    <p class="astro-UGR6SEMF">
+      Build super fast HTML-first websites using your favorite JavaScript frameworks
+    </p>
+  </div>
+
+  <div class="showcase-img astro-UGR6SEMF">
+    <img class="logos astro-UGR6SEMF" src="/assets/framework-logos.c0e34b5b.png" alt="">
+    <img class="logos-small astro-UGR6SEMF" src="/assets/framework-logos-small.ec62e422.png" alt="">
+  </div><p class="showcase-demo astro-UGR6SEMF">
+    <small class="astro-UGR6SEMF">This is a demo website used for the YouTube crash course</small>
+  </p>
+</section><section class="features astro-5XZFHATT">
+  <div class="container astro-5XZFHATT">
+   <div class="card false astro-YAZAJZTT">
+  <h3 class="astro-5XZFHATT">Zero JavaScript Runtime</h3><p class="astro-5XZFHATT"> Astro renders HTML on the server and strips away any remaining, unused JavaScript.</p>
+</div><div class="card false astro-YAZAJZTT">
+  <h3 class="astro-5XZFHATT">The Power of Islands</h3><p class="astro-5XZFHATT"> Need interactive UI? Load individual, non-blocking component islands in parallel.</p>
+</div><div class="card false astro-YAZAJZTT">
+  <h3 class="astro-5XZFHATT">Lazy-Loading Islands</h3><p class="astro-5XZFHATT">Components only hydrate when they scroll into view. If you don&#39;t see it, Astro won&#39;t load it.</p>
+</div>
+  </div>
+</section><section class="page-content">
+		<div class="container">
+			<h2>Get Started With Astro</h2>
+			<p>
+				Get a new Astro project up and running locally with our helpful
+				create-astro CLI wizard!
+			</p>
+		
+			<div class="tabs astro-SMLL6S3F">
+  <ul class="tabs-header astro-SMLL6S3F">
+   <li class="astro-SMLL6S3F">NPM</li><li class="astro-SMLL6S3F">PNPM</li><li class="astro-SMLL6S3F">YARN</li>
+  </ul>
+  <ul class="tabs-content astro-SMLL6S3F">
+    <li class="tab astro-SMLL6S3F">$ npm create astro@latest</li><li class="tab astro-SMLL6S3F">$ pnpm create astro@latest</li><li class="tab astro-SMLL6S3F">$ yarn create astro</li>
+  </ul>
+</div>
+
+
+
+<script>{const activeTextColor = "#A741FF";
+
+  function createTabs(element) {
+    const header = element.querySelector('.tabs-header');
+    const content = element.querySelector('.tabs-content');
+    const tab_headers = [...header.children];
+    const tab_contents = [...content.children];
+    tab_contents.forEach((x) => (x.style.display = 'none'));
+    let current_tab_index = -1;
+
+    function setTab(index) {
+      if (current_tab_index > -1) {
+        tab_headers[current_tab_index].style.fontWeight = 400;
+        tab_headers[current_tab_index].style.color = '#fff';
+        tab_contents[current_tab_index].style.display = 'none';
+      }
+      tab_headers[index].style.fontWeight = 800;
+      tab_headers[index].style.color = activeTextColor;
+      tab_contents[index].style.display = 'flex';
+      current_tab_index = index;
+    }
+
+    let default_tab_index = tab_headers.findIndex((x) => {
+      return [...x.classList].indexOf('default-tab') > -1;
+    });
+
+    default_tab_index = default_tab_index === -1 ? 0 : default_tab_index;
+    setTab(default_tab_index);
+    tab_headers.forEach((x, i) => (x.onclick = (event) => setTab(i)));
+  }
+
+  // Run
+  [...document.querySelectorAll('.tabs')].forEach((x) => createTabs(x));
+
+}</script>
+
+			<h3>Start Building</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsum
+				deserunt inventore ut voluptate, officia maiores repellat tenetur
+				praesentium omnis est ex tempora a necessitatibus reiciendis at et
+				dignissimos. Ipsam eius consequuntur cupiditate aperiam porro, esse
+				laborum impedit nesciunt ut voluptatum assumenda aspernatur libero
+				iusto error molestias dolorum, necessitatibus labore?
+			</p>
+		</div>
+	</section>
+    <footer class="footer astro-CRI23HZC">
+    <div class="container astro-CRI23HZC">
+      <div class="astro-CRI23HZC">
+        <h3 class="astro-CRI23HZC">Astro</h3>
+        <p class="astro-CRI23HZC">
+          This is a demo website to show how the Astro framework works. Visit
+          the <a href="https://astro.build" class="astro-CRI23HZC">official website</a> to learn
+          more.
+        </p>
+      </div>
+      <div class="astro-CRI23HZC">
+        <h3 class="astro-CRI23HZC">Links</h3>
+        <ul class="astro-CRI23HZC">
+          <li class="astro-CRI23HZC"><a href="/" class="astro-CRI23HZC">Home</a></li>
+          <li class="astro-CRI23HZC"><a href="/about" class="astro-CRI23HZC">About</a></li>
+          <li class="astro-CRI23HZC"><a href="/blog" class="astro-CRI23HZC">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </body></html>
