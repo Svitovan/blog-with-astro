@@ -1,11 +1,8 @@
 # Welcome to [Astro](https://astro.build)
 
-
-
-
 ![basics](/index.png)
 
-(index.png)
+
 ## 🚀 Project Structure
 
 
